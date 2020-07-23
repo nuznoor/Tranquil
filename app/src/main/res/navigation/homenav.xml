@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homenav"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.tranquil.home2"
+        android:label="fragment_home2"
+        tools:layout="@layout/fragment_home2" />
+    <fragment
+        android:id="@+id/profile2"
+        android:name="com.example.tranquil.profile2"
+        android:label="fragment_profile2"
+        tools:layout="@layout/fragment_profile2" />
+    <fragment
+        android:id="@+id/guidance2"
+        android:name="com.example.tranquil.guidance2"
+        android:label="fragment_guidance2"
+        tools:layout="@layout/fragment_guidance2" />
+    <fragment
+        android:id="@+id/daily2"
+        android:name="com.example.tranquil.daily2"
+        android:label="fragment_daily2"
+        tools:layout="@layout/fragment_daily2" />
+    <fragment
+        android:id="@+id/community2"
+        android:name="com.example.tranquil.community2"
+        android:label="fragment_community2"
+        tools:layout="@layout/fragment_community2" />
+</navigation>
