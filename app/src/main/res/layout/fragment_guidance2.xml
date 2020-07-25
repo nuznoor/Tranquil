@@ -5,54 +5,101 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient3"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="235dp"
-        android:layout_height="76dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="77dp"
-        android:layout_marginEnd="77dp"
-        android:layout_marginBottom="475dp"
-        android:background="@drawable/grad"
-        android:text="Notable verses"
-        android:textColor="@color/white"
         android:layout_alignParentRight="true"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="560dp"
+        android:background="@drawable/grad"
+        android:text="How to understand Hayd (Menstruation) "
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/btn2"
-        android:layout_width="235dp"
-        android:layout_height="76dp"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="77dp"
-        android:layout_marginEnd="77dp"
-        android:layout_marginBottom="375dp"
-        android:background="@drawable/grad"
-        android:text="Dos and donts"
-        android:textColor="@color/white"
         android:layout_alignParentRight="true"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginRight="240dp"
+        android:layout_marginBottom="380dp"
+        android:background="@drawable/grad"
+        android:text="dos and donts"
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/btn3"
-        android:layout_width="235dp"
-        android:layout_height="76dp"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="77dp"
-        android:layout_marginEnd="77dp"
-        android:layout_marginBottom="275dp"
-        android:background="@drawable/grad"
-        android:text="Other forms of worshipping"
-        android:textColor="@color/white"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/grad"
+        android:text="other forms of worshipping"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="104dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="636dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="296dp"
+        android:layout_height="91dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="447dp"
+        android:text="Allah says, They ask you about menstruation. (O Muhammad), tell them that menstruation is a discomfort for the women, (it is a period when they pass through physical and emotional tension.) (2:222)" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="104dp"
+        android:layout_height="174dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="316dp"
+        android:layout_marginRight="316dp"
+        android:layout_marginBottom="408dp"
+        app:srcCompat="@drawable/quran_book" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="75dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="304dp"
+        app:srcCompat="@drawable/dos_donts" />
 
 </RelativeLayout>
