@@ -28,8 +28,8 @@
 
     <ImageButton
         android:id="@+id/imageButton9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/tranquil_community_2" />
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:src="@drawable/community_2" />
 
 </RelativeLayout>
